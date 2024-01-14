@@ -1,0 +1,48 @@
+{
+  "sea":
+  [
+    {
+      "name": "Bề bề nướng",
+      "description": ""
+    },
+    {
+      "name": "Sò hai cùi nướng mỡ hành",
+      "description": ""
+    },
+    {
+      "name": "Sò sần đỏ nướng mỡ hành",
+      "description": ""
+    },
+    {
+      "name": "Bàn mai / ốc gai nướng mỡ hành",
+      "description": "Tùy thời điểm"
+    },
+    {
+      "name": "Hà gai / sò điệp nướng mỡ hành",
+      "description": "Tùy thời điểm"
+    }
+],
+"land":
+[
+  {
+    "name": "Bề bề nướng",
+    "description": ""
+  },
+  {
+    "name": "Sò hai cùi nướng mỡ hành",
+    "description": ""
+  },
+  {
+    "name": "Sò sần đỏ nướng mỡ hành",
+    "description": ""
+  },
+  {
+    "name": "Bàn mai / ốc gai nướng mỡ hành",
+    "description": "Tùy thời điểm"
+  },
+  {
+    "name": "Hà gai / sò điệp nướng mỡ hành",
+    "description": "Tùy thời điểm"
+  }
+]
+}

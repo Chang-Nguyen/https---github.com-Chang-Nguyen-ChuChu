@@ -1,0 +1,92 @@
+.logo {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0%;
+}
+.styled-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.tt{
+  margin-left: 400px;
+}
+.rr{
+  margin-right: 400px;
+}
+.line {
+  flex: 1;
+  border-top: 2px solid white;
+  margin: 0 10px; 
+  margin-bottom: 6px;
+  width: 100px;
+}
+
+.custom-tab-link {
+  color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: serif;
+ 
+}
+
+.custom-tab-link:hover {
+  background-color: white !important;
+  color: orange !important;
+}
+
+.tab-pane {
+  margin-top: 30px; 
+}
+
+.list-food li {
+  margin-bottom: 15px;
+}
+
+.list-food ul {
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
+.uk-list .uk-flex {
+  padding-left: 10px; 
+}
+
+.menu-buffet-item {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  color: white;
+  font-family: 'Roboto Slab';
+  font-size: 16px;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  padding: 20px 0;
+}
+
+
+
+.menu-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 18px;
+  gap: 20px;
+  padding: 10px;
+}
+
+.vertical-line {
+  border-left: 1px solid rgb(253, 246, 246);
+  font-size: 18px;
+} 
+
+
+
+
+
+
+
+

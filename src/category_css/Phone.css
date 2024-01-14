@@ -1,0 +1,175 @@
+/* Button Frame */
+.btn-frame {display: block;width: 40px;height: 40px;position: fixed;right: 20px;z-index: 100;cursor: pointer;}
+.btn-frame i {display: flex;display: -ms-flex;justify-content: center;align-items: center;-ms-flex-align: center;width: 40px;height: 40px;border-radius: 50%;background: #f3781f;position: relative;z-index: 1;}
+.btn-frame i img { vertical-align: middle; width: 70%; }
+.btn-frame .animated.infinite, .btn-support .animated.infinite { animation-iteration-count: infinite; }
+.btn-frame .kenit-alo-circle {width: 48px;height: 48px;top: -4px;right: -4px;position: absolute;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;border: 1px solid #f3781f;box-sizing: border-box;}
+.btn-frame .zoomIn, .btn-support .zoomIn { animation-name: zoomIn; }
+.btn-frame .animated, .btn-support .animated { animation-duration: 1s; animation-fill-mode: both; }
+.btn-frame .kenit-alo-circle-fill {width: 56px;height: 56px;top: -8px;right: -8px;position: absolute;-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-ms-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;border: 2px solid transparent;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;background-color: #f3781f;opacity: .4;box-sizing: border-box;}
+.btn-frame .pulse, .btn-support .pulse { animation-name: pulse; }
+.btn-face { bottom: 150px; }
+.btn-zalo { bottom: 205px; }
+.btn-phone {bottom: 195px;}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@keyframes pulse {
+      0% {
+        transform: scale3d(1, 1, 1);
+      }
+
+      50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+      }
+
+      100% {
+        transform: scale3d(1, 1, 1);
+      }
+    }
+ .animated.infinite.zoomIn,
+ .animated.infinite.pulse {
+      animation-name: pulse;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+}	
+
+/* Messenger */
+#messages-facebook { position: fixed; z-index: 1000; }
+.js-facebook-messenger-container.closed, .js-facebook-messenger-tooltip.closed { display: none !important; }
+.js-facebook-messenger-tooltip { bottom: 97px; right: 97px }
+.js-facebook-messenger-tooltip { color: #404040; background: #fff }
+.js-facebook-messenger-box, .js-facebook-messenger-button, .js-facebook-messenger-tooltip { z-index: 999 }
+.js-facebook-messenger-tooltip { display: none; position: fixed; text-align: center; border-radius: 10px; overflow: hidden; font-size: 12px; line-height: 1; padding: 10px; border: 1px solid rgba(0, 0, 0, 0.1); box-shadow: rgba(0, 0, 0, 0.15) 0 2pt 10pt; z-index: 1.0E+30 }
+.js-facebook-messenger-close-tooltip { width: 10px; height: 10px; display: inline-block; cursor: pointer; margin-left: 10px }
+.js-facebook-messenger-box.rubberBand { -webkit-animation-name: rubberBand; animation-name: rubberBand }
+.js-facebook-messenger-box.animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both }
+.js-facebook-messenger-box {display: block;position: fixed;cursor: pointer;bottom: 120px;right: 20px;width: 40px;height: 40px;text-align: center;background: #f3781f;border-radius: 100%;z-index: 99;-webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);-moz-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3)}
+.js-facebook-messenger-box.rotate svg#fb-msng-icon { transform: rotate(0deg) }
+.js-facebook-messenger-box svg#fb-msng-icon {width: 26px;height: 26px;position: absolute;top: 7px;left: 7px;opacity: 1;overflow: hidden;-webkit-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;-moz-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;-o-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;z-index: 140;}
+.js-facebook-messenger-box.rotate svg#close-icon { transform: rotate(-45deg) }
+.js-facebook-messenger-box svg#close-icon { opacity: 0; width: 19px; height: 20px; position: absolute; top: 11px; left: 11px; -webkit-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out; -moz-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out; -o-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out; transition: opacity 160ms ease-in-out, transform 160ms ease-in-out; z-index: 140;}
+.js-facebook-messenger-container, .js-facebook-messenger-container-button { z-index: 1000 }
+.js-facebook-messenger-container { position: fixed; opacity: 0; transform: translateY(50px); bottom: 170px; right: 10px; width: 300px; border-radius: 10px; pointer-events: none; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06), 0 2px 32px rgba(0, 0, 0, 0.16); -webkit-transition: transform 160ms ease-in-out, opacity 160ms ease-in-out; -moz-transition: transform 160ms ease-in-out, opacity 160ms ease-in-out; -o-transition: transform 160ms ease-in-out, opacity 160ms ease-in-out; transition: transform 160ms ease-in-out, opacity 160ms ease-in-out }
+.js-facebook-messenger-top-header { width: 100% }
+.js-facebook-messenger-top-header { color: #fff; background: #eb741e }
+.js-facebook-messenger-top-header { display: block; position: relative; width: 100%; background: #eb741e; color: #fff; text-align: center; line-height: 1; padding: 10px; font-size: 14px; border-top-left-radius: 10px; border-top-right-radius: 10px }
+.js-facebook-messenger-container iframe, .js-facebook-messenger-container-button iframe { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px }
+.js-facebook-messenger-container.open { transform: translateY(0px); opacity: 1; pointer-events: all; z-index: 1000; }
+.js-facebook-messenger-box.open svg#fb-msng-icon { opacity: 0 }
+.js-facebook-messenger-box.rotate.open svg#close-icon { transform: rotate(0deg) }
+.js-facebook-messenger-box.open svg#close-icon { opacity: 1 }
+
+.js-facebook-messenger-box .animated.infinite { animation-iteration-count: infinite; }
+.js-facebook-messenger-box .kenit-alo-circle {width: 48px;height: 48px;top: -4px;right: -4px;position: absolute;background-color: transparent;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;border: 1px solid #f3781f;box-sizing: border-box;}
+.js-facebook-messenger-box .zoomIn { animation-name: zoomIn; }
+.js-facebook-messenger-box .animated { animation-duration: 1s; animation-fill-mode: both; }
+.js-facebook-messenger-box .kenit-alo-circle-fill {width: 56px;height: 56px;top: -8px;right: -8px;position: absolute;-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-ms-transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;border: 2px solid transparent;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;background-color: #f3781f;opacity: .4;box-sizing: border-box;}
+.js-facebook-messenger-box .pulse { animation-name: pulse; }
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+}
+@keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+#backtotop{
+	border:none;
+	position: fixed;
+	right: 20px;
+	bottom: 58px;
+	opacity: 0.8;
+	z-index: 1;
+	cursor:pointer;
+	width: 40px;
+}
+
+
+#backtotop:hover{
+	opacity:1;
+}
+img {
+  vertical-align: middle;
+}
+img {
+  border: 0;
+}
+img{
+	max-width: 100% !important;
+	height: auto;
+}
+.transition {
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+}
+#backtotop {
+  position: fixed;
+  right: 20px;
+  z-index: 999; 
+}
+
+

@@ -1,0 +1,138 @@
+.navbar-nav .nav-item .nav-link.active {
+    color: rgb(255, 115, 0);  
+}
+.navbar-nav .nav-item .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.navbar-nav .nav-item:hover .nav-link {
+    color:  rgb(255, 115, 0); 
+}
+.navbar-nav .nav-item:focus-within .nav-link {
+    color: rgb(255, 115, 0);
+}
+.navbar-nav .nav-item + .nav-item {
+    margin-left: 15px; /* thêm khoảng trống giữa các li */
+}
+.nav-item {
+    margin-bottom: 0px;
+}
+.custom-collapse {
+    margin-left: 100px;
+   }
+
+#menu-top .ulmn{
+	list-style-type:none;
+	margin-bottom: 0px;
+	width: 410px;
+}
+#menu-top .ulmn a{
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    line-height: 50px;
+}
+#menu-top .ulmn a:hover,#menu-top .ulmn li.active2 > a{
+    color: #8bb737;
+}
+.menu1 button {
+    background-color: rgb(255, 115, 0); 
+    border: none;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    font-size: 16px;
+    margin: 6px 4px;
+    margin-left: 40px;
+    cursor: pointer;
+    width: 120px;
+  }
+  .menu2 button {
+    background-color: rgb(255, 115, 0); 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    text-align: center;
+    font-size: 16px;
+    margin: 6px 4px;
+    margin-left: 40px;
+    cursor: pointer;
+    width: 120px;
+  }
+.button5 {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.mxh1 a{
+    margin-left: 20px;
+}
+.mxh1 a img{
+    max-width: 20px;
+    max-height: 20px;
+    display: block;
+    filter: brightness(1);
+    transition: filter 0.5s;
+}
+
+.mxh1 a:hover img {
+    filter: invert(1) sepia(1) drop-shadow(0 0 10px rgb(255, 115, 0));
+}
+
+.ngonngu{	  
+    margin-left: 14px;
+    width: 80px;
+    text-align: center;
+    border-left: 2px solid #fff;
+    line-height: 22px;
+    height: 22px;
+    position: relative;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.form-group {
+    margin-bottom: 50px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #040404;
+    border-radius: 0.25rem;
+}
+
+.btn {
+    background-color: rgb(252, 157, 79); 
+    border: none;
+    color: white;
+    padding: 6px;
+    margin-left: 200px;
+    font-size: 16px;
+    margin: 6px 4px;
+    width: 140px;
+    border-radius: 30px;
+    display: block;
+    margin-top: 20px;
+}
+.btn:hover {
+    background-color: rgb(204, 201, 201);
+  }
+
+.me-auto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 200px;
+    color: black;
+}

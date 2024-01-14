@@ -1,0 +1,103 @@
+{
+  "sea": [
+    { "name": "Bề bề nướng", "description": "" },
+    { "name": "Sò hai cùi nướng mỡ hành", "description": "" },
+    { "name": "Sò sần đỏ nướng mỡ hành", "description": "" },
+    { "name": "Bàn mai / ốc gai nướng mỡ hành", "description": "Tùy thời điểm" },
+    { "name": "Hà gai / sò điệp nướng mỡ hành", "description": "Tùy thời điểm" }
+  ],
+  "sea2": [
+    { "name": "Bề bề hấp", "description": "" },
+    { "name": "Ghẹ Phú Quốc hấp", "description": "" },
+    { "name": "Tôm càng xanh hấp", "description": "" },
+    { "name": "Sò lụa trắng hấp húng quế", "description": "" },
+    { "name": "Ốc mít hấp gừng xả", "description": "" }
+  ],
+  "khaivi1": [
+    { "name": "Salad cá ngừ", "description": "" },
+    { "name": "Salad trứng cua", "description": "" },
+    { "name": "Salad đu đủ tai heo", "description": "" },
+    { "name": "Salad hoa quả/Salad thập cẩm", "description": "" },
+    { "name": "Cháo cá hồi / Cháo hải sản", "description": "" }
+  ],
+  "khaivi2": [
+    { "name": "Bánh cuốn Thanh Trì", "description": "" },
+    { "name": "Gỏi cuốn tai heo", "description": "" },
+    { "name": "Kim chi Hàn Quốc", "description": "" },
+    { "name": "Dưa chuột", "description": "" },
+    { "name": "Gỏi cuốn tôm thịt", "description": "" }
+  ],
+  "nuong": [
+    { "name": "Thịt ba chỉ bò Mỹ ướp sốt Bulgogi", "description": "" },
+    { "name": "Thịt ba chỉ bò Mỹ ướp sốt tiêu đen", "description": "" },
+    { "name": "Thịt nạc vai ướp sate", "description": "" },
+    { "name": "Thịt ba chỉ heo ướp Bulgogi", "description": "" },
+    { "name": "Thịt ba chỉ bò Mỹ cuốn nấm kim châm", "description": "" },
+    { "name": "Thịt gà ướp mật ong", "description": "" },
+    { "name": "Mực ướp ớt Hàn Quốc", "description": "" },
+    { "name": "Bạch tuộc ướp sốt ớt Hàn Quốc", "description": "" }
+  ],
+  "lau": [
+    { "name": "Lẩu Nấm", "description": "" },
+    { "name": "Lẩu Thái Tom Yum", "description": "" },
+    { "name": "Thịt ba chỉ bò Mỹ cuốn nấm kim châm", "description": "" },
+    { "name": "Tôm càng xanh bơi", "description": "" },
+    { "name": "Ngao trắng tươi", "description": "" },
+    { "name": "Râu mực không tẩm ướp", "description": "" },
+    { "name": "Nấm sò, nấm kim châm, nấm hải sản", "description": "" },
+    { "name": "Rau muống, cần nước, mồng tơi, cải thảo", "description": "" }
+  ],
+  "sotcham1": [
+    { "name": "Sốt ớt Hàn Quốc", "description": "" },
+    { "name": "Gỏi cuốn tai heo", "description": "" },
+    { "name": "Mật mía", "description": "" },
+    { "name": "Sốt ớt xanh hải sản", "description": "" },
+    { "name": "Nước mắm chua ngọt", "description": "" }
+  ],
+  "sotcham2": [
+    { "name": "Sốt xì dầu thái", "description": "" },
+    { "name": "Tương cà cholimex", "description": "" },
+    { "name": "Sốt mayonnaise", "description": "" },
+    { "name": "Mù tạt wasabi", "description": "" },
+    { "name": "Gia vị chanh ớt", "description": "" }
+  ],
+  "trangmieng1": [
+    { "name": "Chè thái", "description": "" },
+    { "name": "Chè bánh lọt", "description": "" },
+    { "name": "Chè sâm bổ lượng", "description": "" },
+    { "name": "Chè đậu xanh bột báng", "description": "" },
+    { "name": "Thạch rau câu thập cẩm", "description": "" },
+    { "name": "Thạch rau câu caramel sữa", "description": "" },
+    { "name": "Thạch rau câu cà phê sữa", "description": "" },
+    { "name": "Sữa chua & nếp cẩm", "description": "" }
+  ],
+  "trangmieng2": [
+    { "name": "Bánh bông lan", "description": "" },
+    { "name": "Bánh mousse chanh leo", "description": "" },
+    { "name": "Các dòng bánh cookies các loại", "description": "" },
+    { "name": "Dưa hấu", "description": "" },
+    { "name": "Dứa chín", "description": "" },
+    { "name": "Dưa vàng", "description": "" },
+    { "name": "Củ đậu", "description": "" },
+    { "name": "Dừa | Vani | Dâu | Sầu riêng | Khoai môn | Cốm", "description": "" }
+  ],
+  "douong1": [
+    { "name": "Vang sủi trắng Tây Ban Nha", "description": "250.000đ"},
+    { "name": "Vang sủi đào Tây Ban Nha", "description": "250.000đ" },
+    { "name": "Vang sủi đỏ Tây Ban Nha", "description": "250.000đ" },
+    { "name": "Vang sủi dâu Tây Ban Nha", "description": "250.000đ" },
+    { "name": "Vang sủi Italy", "description": "720.000đ" },
+    { "name": "Vang trắng Italy", "description": "370.000đ" },
+    { "name": "Vang đỏ Italy", "description": "370.000đ" },
+    { "name": "Vang trắng Chardonnay Úc", "description": "540.000đ" }
+  ],
+  "douong2": [
+    { "name": "Nước ép dứa", "description": "39.000đ" },
+    { "name": "Nước ép cà rốt", "description": "39.000 đ" },
+    { "name": "Nước chanh tươi", "description": "39.000 đ" },
+    { "name": "Nước ép dưa hấu", "description": "39.000 đ" },
+    { "name": "Nước ép ổi", "description": "45.000đ" },
+    { "name": "Nước ép bưởi", "description": "45.000đ" },
+    { "name": "Nước cam nguyên chất", "description": "55.000đ" }
+  ]
+}

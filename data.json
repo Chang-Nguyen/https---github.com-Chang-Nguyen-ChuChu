@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "introduce": [
+    {
+      "name": "Giới thiệu",
+      "productName": "Chu Chu - Vua Hải sản là hệ thống nhà hàng hải sản lớn tại Hà Nội, rất được khách hàng tin tưởng và đánh giá cao về chất lượng. Với các combo hải sản cực kì ưu đãi, khách hàng sẽ được thưởng thức tới gần 200 món ăn từ hải sản tổng hợp, khai vị kích thích vị giác với các món ăn ưa chuộng, nộm chân gà xoài non kiểu Thái, ngao xào cùng các món ăn, thức uống hấp dẫn khác…",
+      "imgUrl": "https://i.imgur.com/YrgtOjG.png",
+      "description": "Với sự yêu thích và ủng hộ từ phía khách hàng, Chu Chu - Vua Hải sản đã không ngừng phát triển và có tới nhiều cơ sở khắp cả nước:",
+      "basis1":"CS1: 111, Thanh Xuân, Nguyễn Trãi, Hà Nội",
+      "basis2":"CS2: 69, Xuân Thủy, Cầu Giấy, Hà Nội",
+      "basis3":"CS3: 371D Nguyễn Cảnh Chân, Phường Nguyễn Cư Trinh Quận",
+      "basis4":"CS4: 111, Thanh Xuân, Nguyễn Trãi, Hà Nội",  
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+  
+}
